@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="550.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="whammy.fx.view.WhammyController">
+   <children>
+      <Slider fx:id="slider1" blockIncrement="8.0" layoutX="417.0" layoutY="53.0" majorTickUnit="8.0" max="127.0" minorTickCount="0" />
+      <Slider fx:id="slider2" layoutX="417.0" layoutY="82.0" max="127.0" />
+      <Slider fx:id="slider3" layoutX="417.0" layoutY="111.0" max="127.0" />
+      <Slider fx:id="slider4" layoutX="417.0" layoutY="140.0" max="127.0" />
+      <Slider fx:id="slider5" layoutX="417.0" layoutY="168.0" max="127.0" />
+      <Slider fx:id="slider6" layoutX="417.0" layoutY="199.0" max="127.0" />
+      <Slider fx:id="slider7" layoutX="417.0" layoutY="227.0" max="127.0" />
+      <Slider fx:id="slider8" layoutX="417.0" layoutY="255.0" max="127.0" />
+      <Slider fx:id="slider16" layoutX="417.0" layoutY="483.0" max="126.0" />
+      <Slider fx:id="slider15" layoutX="417.0" layoutY="455.0" max="127.0" />
+      <Slider fx:id="slider14" layoutX="417.0" layoutY="427.0" max="127.0" />
+      <Slider fx:id="slider13" layoutX="417.0" layoutY="396.0" max="127.0" />
+      <Slider fx:id="slider12" layoutX="417.0" layoutY="368.0" max="127.0" />
+      <Slider fx:id="slider11" layoutX="417.0" layoutY="340.0" max="127.0" />
+      <Slider fx:id="slider10" layoutX="417.0" layoutY="310.0" max="127.0" />
+      <Slider fx:id="slider9" layoutX="417.0" layoutY="282.0" max="127.0" />
+      <ChoiceBox fx:id="command1" layoutX="325.0" layoutY="48.0" prefHeight="22.0" prefWidth="78.0" />
+      <ChoiceBox fx:id="command2" layoutX="325.0" layoutY="76.0" prefHeight="22.0" prefWidth="78.0" />
+      <ChoiceBox fx:id="command3" layoutX="325.0" layoutY="106.0" prefHeight="22.0" prefWidth="78.0" />
+      <ChoiceBox fx:id="command4" layoutX="325.0" layoutY="134.0" prefHeight="22.0" prefWidth="78.0" />
+      <ChoiceBox fx:id="command5" layoutX="325.0" layoutY="162.0" prefHeight="22.0" prefWidth="78.0" />
+      <ChoiceBox fx:id="command6" layoutX="325.0" layoutY="193.0" prefHeight="22.0" prefWidth="78.0" />
+      <ChoiceBox fx:id="command7" layoutX="325.0" layoutY="221.0" prefHeight="22.0" prefWidth="78.0" />
+      <ChoiceBox fx:id="command8" layoutX="325.0" layoutY="249.0" prefHeight="22.0" prefWidth="78.0" />
+      <ChoiceBox fx:id="command16" layoutX="325.0" layoutY="477.0" prefHeight="22.0" prefWidth="78.0" />
+      <ChoiceBox fx:id="command15" layoutX="325.0" layoutY="449.0" prefHeight="22.0" prefWidth="78.0" />
+      <ChoiceBox fx:id="command14" layoutX="325.0" layoutY="421.0" prefHeight="22.0" prefWidth="78.0" />
+      <ChoiceBox fx:id="command13" layoutX="325.0" layoutY="390.0" prefHeight="22.0" prefWidth="78.0" />
+      <ChoiceBox fx:id="command12" layoutX="325.0" layoutY="362.0" prefHeight="22.0" prefWidth="78.0" />
+      <ChoiceBox fx:id="command11" layoutX="325.0" layoutY="334.0" prefHeight="22.0" prefWidth="78.0" />
+      <ChoiceBox fx:id="command10" layoutX="325.0" layoutY="304.0" prefHeight="22.0" prefWidth="78.0" />
+      <ChoiceBox fx:id="command9" layoutX="325.0" layoutY="276.0" prefHeight="22.0" prefWidth="78.0" />
+      <Button fx:id="createSequenceButton" layoutX="89.0" layoutY="206.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Create Sequence" />
+      <Label fx:id="slideValue1" layoutX="577.0" layoutY="52.0" text="0" />
+      <Label fx:id="slideValue2" layoutX="577.0" layoutY="81.0" text="0" />
+      <Label fx:id="slideValue3" layoutX="577.0" layoutY="110.0" text="0" />
+      <Label fx:id="slideValue4" layoutX="577.0" layoutY="138.0" text="0" />
+      <Label fx:id="slideValue5" layoutX="577.0" layoutY="167.0" text="0" />
+      <Label fx:id="slideValue6" layoutX="577.0" layoutY="198.0" text="0" />
+      <Label fx:id="slideValue7" layoutX="577.0" layoutY="226.0" text="0" />
+      <Label fx:id="slideValue8" layoutX="577.0" layoutY="253.0" text="0" />
+      <Label fx:id="slideValue9" layoutX="577.0" layoutY="281.0" text="0" />
+      <Label fx:id="slideValue10" layoutX="577.0" layoutY="309.0" text="0" />
+      <Label fx:id="slideValue11" layoutX="577.0" layoutY="339.0" text="0" />
+      <Label fx:id="slideValue12" layoutX="577.0" layoutY="366.0" text="0" />
+      <Label fx:id="slideValue13" layoutX="577.0" layoutY="394.0" text="0" />
+      <Label fx:id="slideValue14" layoutX="577.0" layoutY="426.0" text="0" />
+      <Label fx:id="slideValue15" layoutX="577.0" layoutY="454.0" text="0" />
+      <Label fx:id="slideValue16" layoutX="577.0" layoutY="481.0" text="0" />
+      <TextField fx:id="delayText" layoutX="170.0" layoutY="286.0" prefHeight="25.0" prefWidth="51.0" promptText="1000" />
+      <Label layoutX="61.0" layoutY="288.0" text="Set Delay (bpm)" />
+      <Button fx:id="setDelayButton" layoutX="232.0" layoutY="286.0" mnemonicParsing="false" onAction="#setDelay" text="Set" />
+   </children>
+</AnchorPane>
