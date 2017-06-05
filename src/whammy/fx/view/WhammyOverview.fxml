@@ -4,59 +4,151 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="550.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="whammy.fx.view.WhammyController">
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="649.0" prefWidth="706.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="whammy.fx.view.WhammyController">
    <children>
-      <Slider fx:id="slider1" blockIncrement="8.0" layoutX="417.0" layoutY="53.0" majorTickUnit="8.0" max="127.0" minorTickCount="0" />
-      <Slider fx:id="slider2" layoutX="417.0" layoutY="82.0" max="127.0" />
-      <Slider fx:id="slider3" layoutX="417.0" layoutY="111.0" max="127.0" />
-      <Slider fx:id="slider4" layoutX="417.0" layoutY="140.0" max="127.0" />
-      <Slider fx:id="slider5" layoutX="417.0" layoutY="168.0" max="127.0" />
-      <Slider fx:id="slider6" layoutX="417.0" layoutY="199.0" max="127.0" />
-      <Slider fx:id="slider7" layoutX="417.0" layoutY="227.0" max="127.0" />
-      <Slider fx:id="slider8" layoutX="417.0" layoutY="255.0" max="127.0" />
-      <Slider fx:id="slider16" layoutX="417.0" layoutY="483.0" max="126.0" />
-      <Slider fx:id="slider15" layoutX="417.0" layoutY="455.0" max="127.0" />
-      <Slider fx:id="slider14" layoutX="417.0" layoutY="427.0" max="127.0" />
-      <Slider fx:id="slider13" layoutX="417.0" layoutY="396.0" max="127.0" />
-      <Slider fx:id="slider12" layoutX="417.0" layoutY="368.0" max="127.0" />
-      <Slider fx:id="slider11" layoutX="417.0" layoutY="340.0" max="127.0" />
-      <Slider fx:id="slider10" layoutX="417.0" layoutY="310.0" max="127.0" />
-      <Slider fx:id="slider9" layoutX="417.0" layoutY="282.0" max="127.0" />
-      <ChoiceBox fx:id="command1" layoutX="325.0" layoutY="48.0" prefHeight="22.0" prefWidth="78.0" />
-      <ChoiceBox fx:id="command2" layoutX="325.0" layoutY="76.0" prefHeight="22.0" prefWidth="78.0" />
-      <ChoiceBox fx:id="command3" layoutX="325.0" layoutY="106.0" prefHeight="22.0" prefWidth="78.0" />
-      <ChoiceBox fx:id="command4" layoutX="325.0" layoutY="134.0" prefHeight="22.0" prefWidth="78.0" />
-      <ChoiceBox fx:id="command5" layoutX="325.0" layoutY="162.0" prefHeight="22.0" prefWidth="78.0" />
-      <ChoiceBox fx:id="command6" layoutX="325.0" layoutY="193.0" prefHeight="22.0" prefWidth="78.0" />
-      <ChoiceBox fx:id="command7" layoutX="325.0" layoutY="221.0" prefHeight="22.0" prefWidth="78.0" />
-      <ChoiceBox fx:id="command8" layoutX="325.0" layoutY="249.0" prefHeight="22.0" prefWidth="78.0" />
-      <ChoiceBox fx:id="command16" layoutX="325.0" layoutY="477.0" prefHeight="22.0" prefWidth="78.0" />
-      <ChoiceBox fx:id="command15" layoutX="325.0" layoutY="449.0" prefHeight="22.0" prefWidth="78.0" />
-      <ChoiceBox fx:id="command14" layoutX="325.0" layoutY="421.0" prefHeight="22.0" prefWidth="78.0" />
-      <ChoiceBox fx:id="command13" layoutX="325.0" layoutY="390.0" prefHeight="22.0" prefWidth="78.0" />
-      <ChoiceBox fx:id="command12" layoutX="325.0" layoutY="362.0" prefHeight="22.0" prefWidth="78.0" />
-      <ChoiceBox fx:id="command11" layoutX="325.0" layoutY="334.0" prefHeight="22.0" prefWidth="78.0" />
-      <ChoiceBox fx:id="command10" layoutX="325.0" layoutY="304.0" prefHeight="22.0" prefWidth="78.0" />
-      <ChoiceBox fx:id="command9" layoutX="325.0" layoutY="276.0" prefHeight="22.0" prefWidth="78.0" />
-      <Button fx:id="createSequenceButton" layoutX="89.0" layoutY="206.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Create Sequence" />
-      <Label fx:id="slideValue1" layoutX="577.0" layoutY="52.0" text="0" />
-      <Label fx:id="slideValue2" layoutX="577.0" layoutY="81.0" text="0" />
-      <Label fx:id="slideValue3" layoutX="577.0" layoutY="110.0" text="0" />
-      <Label fx:id="slideValue4" layoutX="577.0" layoutY="138.0" text="0" />
-      <Label fx:id="slideValue5" layoutX="577.0" layoutY="167.0" text="0" />
-      <Label fx:id="slideValue6" layoutX="577.0" layoutY="198.0" text="0" />
-      <Label fx:id="slideValue7" layoutX="577.0" layoutY="226.0" text="0" />
-      <Label fx:id="slideValue8" layoutX="577.0" layoutY="253.0" text="0" />
-      <Label fx:id="slideValue9" layoutX="577.0" layoutY="281.0" text="0" />
-      <Label fx:id="slideValue10" layoutX="577.0" layoutY="309.0" text="0" />
-      <Label fx:id="slideValue11" layoutX="577.0" layoutY="339.0" text="0" />
-      <Label fx:id="slideValue12" layoutX="577.0" layoutY="366.0" text="0" />
-      <Label fx:id="slideValue13" layoutX="577.0" layoutY="394.0" text="0" />
-      <Label fx:id="slideValue14" layoutX="577.0" layoutY="426.0" text="0" />
-      <Label fx:id="slideValue15" layoutX="577.0" layoutY="454.0" text="0" />
-      <Label fx:id="slideValue16" layoutX="577.0" layoutY="481.0" text="0" />
-      <TextField fx:id="delayText" layoutX="170.0" layoutY="286.0" prefHeight="25.0" prefWidth="51.0" promptText="1000" />
-      <Label layoutX="61.0" layoutY="288.0" text="Set Delay (bpm)" />
-      <Button fx:id="setDelayButton" layoutX="232.0" layoutY="286.0" mnemonicParsing="false" onAction="#setDelay" text="Set" />
+      <Label fx:id="configLabel" layoutX="32.0" layoutY="156.0" text="Read in from file (.txt)" />
+      <Button fx:id="configButton" layoutX="35.0" layoutY="213.0" mnemonicParsing="false" onAction="#handleFileButton" text="Set Configuration" />
+      <TextField fx:id="configText" layoutX="35.0" layoutY="180.0" text="Whammy.txt" />
+      <Button fx:id="setDelayButton" layoutX="92.0" layoutY="365.0" mnemonicParsing="false" onAction="#setDelay" text="Set" />
+      <Label layoutX="37.0" layoutY="341.0" text="Set Delay (bpm)" />
+      <TextField fx:id="delayText" layoutX="35.0" layoutY="365.0" prefHeight="25.0" prefWidth="51.0" promptText="1000" />
+      <Button fx:id="createSequenceButton" layoutX="35.0" layoutY="245.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Save Configuration" />
+      <ScrollPane layoutX="210.0" layoutY="53.0" prefHeight="492.0" prefWidth="431.0">
+         <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="970.0" prefWidth="418.0">
+               <children>
+                  <TextField fx:id="textValue16" layoutX="339.0" layoutY="451.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle16" layoutX="27.0" layoutY="449.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue15" layoutX="339.0" layoutY="423.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle15" layoutX="27.0" layoutY="421.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue14" layoutX="339.0" layoutY="395.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle14" layoutX="27.0" layoutY="393.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue13" layoutX="339.0" layoutY="365.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle13" layoutX="27.0" layoutY="362.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue12" layoutX="339.0" layoutY="336.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle12" layoutX="27.0" layoutY="334.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue11" layoutX="339.0" layoutY="309.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle11" layoutX="27.0" layoutY="306.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue10" layoutX="339.0" layoutY="279.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle10" layoutX="27.0" layoutY="277.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue9" layoutX="339.0" layoutY="251.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle9" layoutX="27.0" layoutY="249.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue8" layoutX="339.0" layoutY="224.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle8" layoutX="27.0" layoutY="221.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue7" layoutX="339.0" layoutY="195.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle7" layoutX="27.0" layoutY="193.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue6" layoutX="339.0" layoutY="167.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle6" layoutX="27.0" layoutY="165.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue5" layoutX="339.0" layoutY="136.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle5" layoutX="27.0" layoutY="134.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue4" layoutX="339.0" layoutY="109.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle4" layoutX="27.0" layoutY="107.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue3" layoutX="339.0" layoutY="80.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle3" layoutX="27.0" layoutY="78.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue2" layoutX="339.0" layoutY="50.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle2" layoutX="27.0" layoutY="48.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <ToggleButton fx:id="toggle1" layoutX="27.0" layoutY="20.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue1" layoutX="339.0" layoutY="22.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ChoiceBox fx:id="command9" layoutX="99.0" layoutY="248.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command10" layoutX="99.0" layoutY="276.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command11" layoutX="99.0" layoutY="306.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command12" layoutX="99.0" layoutY="334.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command13" layoutX="99.0" layoutY="362.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command14" layoutX="99.0" layoutY="393.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command15" layoutX="99.0" layoutY="421.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command16" layoutX="99.0" layoutY="449.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command8" layoutX="99.0" layoutY="221.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command7" layoutX="99.0" layoutY="193.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command6" layoutX="99.0" layoutY="165.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command5" layoutX="99.0" layoutY="134.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command4" layoutX="99.0" layoutY="106.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command3" layoutX="99.0" layoutY="78.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command2" layoutX="99.0" layoutY="48.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command1" layoutX="99.0" layoutY="20.0" prefHeight="22.0" prefWidth="78.0" />
+                  <Slider fx:id="slider9" layoutX="191.0" layoutY="254.0" max="127.0" />
+                  <Slider fx:id="slider10" layoutX="191.0" layoutY="282.0" max="127.0" />
+                  <Slider fx:id="slider11" layoutX="191.0" layoutY="312.0" max="127.0" />
+                  <Slider fx:id="slider12" layoutX="191.0" layoutY="340.0" max="127.0" />
+                  <Slider fx:id="slider13" layoutX="191.0" layoutY="368.0" max="127.0" />
+                  <Slider fx:id="slider14" layoutX="191.0" layoutY="399.0" max="127.0" />
+                  <Slider fx:id="slider15" layoutX="191.0" layoutY="427.0" max="127.0" />
+                  <Slider fx:id="slider16" layoutX="191.0" layoutY="455.0" max="126.0" />
+                  <Slider fx:id="slider8" layoutX="191.0" layoutY="227.0" max="127.0" />
+                  <Slider fx:id="slider7" layoutX="191.0" layoutY="199.0" max="127.0" />
+                  <Slider fx:id="slider6" layoutX="191.0" layoutY="171.0" max="127.0" />
+                  <Slider fx:id="slider5" layoutX="191.0" layoutY="140.0" max="127.0" />
+                  <Slider fx:id="slider4" layoutX="191.0" layoutY="112.0" max="127.0" />
+                  <Slider fx:id="slider3" layoutX="191.0" layoutY="83.0" max="127.0" />
+                  <Slider fx:id="slider2" layoutX="191.0" layoutY="54.0" max="127.0" />
+                  <Slider fx:id="slider1" blockIncrement="8.0" layoutX="191.0" layoutY="25.0" majorTickUnit="8.0" max="127.0" minorTickCount="0" />
+                  <Slider fx:id="slider17" blockIncrement="8.0" layoutX="192.0" layoutY="481.0" majorTickUnit="8.0" max="127.0" minorTickCount="0" />
+                  <Slider fx:id="slider18" layoutX="191.0" layoutY="510.0" max="127.0" />
+                  <Slider fx:id="slider19" layoutX="191.0" layoutY="539.0" max="127.0" />
+                  <Slider fx:id="slider20" layoutX="191.0" layoutY="568.0" max="127.0" />
+                  <Slider fx:id="slider21" layoutX="191.0" layoutY="596.0" max="127.0" />
+                  <Slider fx:id="slider22" layoutX="191.0" layoutY="627.0" max="127.0" />
+                  <Slider fx:id="slider23" layoutX="191.0" layoutY="655.0" max="127.0" />
+                  <Slider fx:id="slider24" layoutX="191.0" layoutY="683.0" max="127.0" />
+                  <Slider fx:id="slider32" layoutX="191.0" layoutY="911.0" max="126.0" />
+                  <Slider fx:id="slider31" layoutX="191.0" layoutY="883.0" max="127.0" />
+                  <Slider fx:id="slider30" layoutX="191.0" layoutY="855.0" max="127.0" />
+                  <Slider fx:id="slider29" layoutX="191.0" layoutY="824.0" max="127.0" />
+                  <Slider fx:id="slider28" layoutX="191.0" layoutY="796.0" max="127.0" />
+                  <Slider fx:id="slider27" layoutX="191.0" layoutY="768.0" max="127.0" />
+                  <Slider fx:id="slider26" layoutX="191.0" layoutY="738.0" max="127.0" />
+                  <Slider fx:id="slider25" layoutX="191.0" layoutY="710.0" max="127.0" />
+                  <ChoiceBox fx:id="command17" layoutX="99.0" layoutY="476.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command18" layoutX="99.0" layoutY="504.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command19" layoutX="99.0" layoutY="534.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command20" layoutX="99.0" layoutY="562.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command21" layoutX="99.0" layoutY="590.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command22" layoutX="99.0" layoutY="621.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command23" layoutX="99.0" layoutY="649.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command24" layoutX="99.0" layoutY="677.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command32" layoutX="99.0" layoutY="905.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command31" layoutX="99.0" layoutY="877.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command30" layoutX="99.0" layoutY="849.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command29" layoutX="99.0" layoutY="818.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command28" layoutX="99.0" layoutY="790.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command27" layoutX="99.0" layoutY="762.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command26" layoutX="99.0" layoutY="732.0" prefHeight="22.0" prefWidth="78.0" />
+                  <ChoiceBox fx:id="command25" layoutX="99.0" layoutY="704.0" prefHeight="22.0" prefWidth="78.0" />
+                  <TextField fx:id="textValue17" layoutX="339.0" layoutY="478.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle17" layoutX="27.0" layoutY="476.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <ToggleButton fx:id="toggle18" layoutX="27.0" layoutY="504.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue18" layoutX="339.0" layoutY="506.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle19" layoutX="27.0" layoutY="534.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue19" layoutX="339.0" layoutY="536.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle20" layoutX="27.0" layoutY="563.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue20" layoutX="339.0" layoutY="565.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle21" layoutX="27.0" layoutY="590.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue21" layoutX="339.0" layoutY="592.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle22" layoutX="27.0" layoutY="621.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue22" layoutX="339.0" layoutY="623.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle23" layoutX="27.0" layoutY="649.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue23" layoutX="339.0" layoutY="651.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle24" layoutX="27.0" layoutY="677.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue24" layoutX="339.0" layoutY="680.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle25" layoutX="27.0" layoutY="705.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue25" layoutX="339.0" layoutY="707.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle26" layoutX="27.0" layoutY="733.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue26" layoutX="339.0" layoutY="735.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle27" layoutX="27.0" layoutY="762.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue27" layoutX="339.0" layoutY="765.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle28" layoutX="27.0" layoutY="790.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue28" layoutX="339.0" layoutY="792.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle29" layoutX="27.0" layoutY="818.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue29" layoutX="339.0" layoutY="821.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle30" layoutX="27.0" layoutY="849.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue30" layoutX="339.0" layoutY="851.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle31" layoutX="27.0" layoutY="877.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue31" layoutX="339.0" layoutY="879.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+                  <ToggleButton fx:id="toggle32" layoutX="27.0" layoutY="905.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="ON/OFF" />
+                  <TextField fx:id="textValue32" layoutX="339.0" layoutY="907.0" prefHeight="25.0" prefWidth="51.0" text="0" />
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <Button fx:id="uploadButton" layoutX="31.0" layoutY="533.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="126.0" text="Upload to Arduino" />
    </children>
 </AnchorPane>

@@ -7,6 +7,7 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
@@ -90,6 +91,7 @@ public class MainApp extends Application {
             AnchorPane whammyOverview = (AnchorPane) loader.load();
 
             // Set person overview into the center of root layout.
+
             rootLayout.setCenter(whammyOverview);
 
 //            // Give the controller access to the main app.
